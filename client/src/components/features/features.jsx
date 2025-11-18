@@ -10,7 +10,7 @@ const Features = () => {
     }
     else {
         return (
-            <div className="container section">
+
                 <div className="row">
                     {FeatureList.map((item,i)=>{
                         return (<div key={i} className="col-6 p-2 col-md-3 col-lg-3 col-sm-6">

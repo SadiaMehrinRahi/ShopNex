@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e499eea-f30a-4379-944b-4aac0036164b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../GitHub Desktop.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Grammarly.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MongoDBCompass.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Postman.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/controllers/CartListController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/controllers/FeaturesController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/controllers/InvoiceController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/controllers/ProductController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/controllers/UserController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/controllers/WishListController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/middlewares/AuthVerification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/CategoryModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/FeaturesModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/InvoiceModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/InvoiceProductModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/LegalModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/PamentSettingModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/ProductDetailModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/ProductModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/ProductSliderModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/ProfileModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/ReviewModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/UserModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDP 400/Ecom-Rcored/src/models/WishModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sadia Mehrin Rahi - Chrome.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../desktop.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../new app/demo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/layout/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/features/features.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/features/features.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,24 +26,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Rebasing main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-WS-252.26199.162" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
       </set>
     </attachedChunks>
   </component>
@@ -93,6 +59,7 @@
       <workItem from="1763388138147" duration="16687000" />
       <workItem from="1763461571966" duration="2845000" />
       <workItem from="1763469250824" duration="3848000" />
+      <workItem from="1763496311169" duration="400000" />
     </task>
     <servers />
   </component>
