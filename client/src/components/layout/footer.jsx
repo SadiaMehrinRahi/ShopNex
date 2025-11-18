@@ -42,8 +42,20 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-success py-3 text-center">
-                <p className="text-white bodySmal">All Rights Reserved </p>
+            <div className="bg-secondary py-3 text-center">
+                <p className="text-white bodySmal">
+                    © {2025} by ShopNex | All Rights Reserved
+                </p>
+                <div className="social-icons mb-0">
+                    <span className="text-white mx-2">
+                    <i className="bi bi-facebook fs-5"></i> </span>
+
+                    <span className="text-white mx-2">
+                        <i className="bi bi-twitter fs-5"></i> </span>
+
+                    <span className="text-white mx-2">
+                    <i className="bi bi-linkedin fs-5"></i> </span>
+                </div>
             </div>
         </div>
     );
