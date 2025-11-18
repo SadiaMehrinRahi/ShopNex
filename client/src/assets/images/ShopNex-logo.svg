@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="100" viewBox="0 0 320 100">
+    <g transform="translate(10, 35)">
+        <text x="0" y="10" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#004a99">
+            Shop<tspan fill="#8BC34A">Nex</tspan>
+        </text>
+        <text x="0" y="35" font-family="Arial, sans-serif" font-size="14" fill="#555">
+            Your Next Online Destination
+        </text>
+    </g>
+</svg>

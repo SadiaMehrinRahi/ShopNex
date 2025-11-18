@@ -1,24 +1,25 @@
-const nodemailer=require('nodemailer');
+const nodemailer = require('nodemailer');
 
-const EmailSend=async (EmailTo,EmailText,EmailSubject)=>{
+const EmailSend = async (EmailTo, EmailText, EmailSubject) => {
 
-     let  transport= nodemailer.createTransport({
-            host:"",
-            port:1,
-            secure:false,
-            auth:{user:"",pass:""},
-            tls:{rejectUnauthorized:false}
-        })
+    let transport = nodemailer.createTransport({
+        host: "smtp.gmail.com",
+        port: 465,
+        secure: true,
+        auth: {
+            user: "maruf333444@gmail.com",
+            pass: "qbag fenq lytu rjue"
+        }
+    });
 
+    let mailOption = {
+        from: "maruf333444@gmail.com",
+        to: EmailTo,
+        subject: EmailSubject,
+        text: EmailText
+    };
 
-    let mailOption={
-         from:'',
-         to:EmailTo,
-         subject:EmailSubject,
-         text:EmailText
-    }
+    return await transport.sendMail(mailOption);
+};
 
-    return await transport.sendMail(mailOption)
-}
-
-module.exports=EmailSend;
+module.exports = EmailSend;

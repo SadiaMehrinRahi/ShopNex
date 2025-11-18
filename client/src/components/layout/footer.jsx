@@ -42,7 +42,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-dark py-3 text-center">
+            <div className="bg-success py-3 text-center">
                 <p className="text-white bodySmal">All Rights Reserved </p>
             </div>
         </div>

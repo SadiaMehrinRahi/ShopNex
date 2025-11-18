@@ -23,6 +23,7 @@
     "mongoose": "^8.0.2",
     "nodemailer": "^6.9.7",
     "nodemon": "^2.0.18",
+    "react-bootstrap-icons": "^1.11.6",
     "xss-clean": "^0.1.4"
   }
 }

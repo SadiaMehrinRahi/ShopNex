@@ -5,21 +5,21 @@ const ProfileModel=require("../models/ProfileModel")
 const {EncodeToken} = require("../utility/TokenHelper");
 
 const UserOTPService = async (req) => {
-     try {
-         let email=req.params.email;
-         let code=Math.floor(100000+Math.random()*900000);
+    try {
+        let email=req.params.email;
+        let code=Math.floor(100000+Math.random()*900000);
 
-         let EmailText=`Your Verification Code is= ${code}`
-         let EmailSubject='Email Verification'
+        let EmailText=`Your Verification Code is= ${code}`
+        let EmailSubject='Email Verification'
 
-         await EmailSend(email,EmailText,EmailSubject);
+        await EmailSend(email,EmailText,EmailSubject);
 
-         await UserModel.updateOne({email:email},{$set:{otp:code}},{upsert:true})
+        await UserModel.updateOne({email:email},{$set:{otp:code}},{upsert:true})
 
-         return {status:"success", message:"6 Digit OTP has been send"}
-     }catch (e) {
-         return {status:"fail", message:e}
-     }
+        return {status:"success", message:"6 Digit OTP has been send"}
+    }catch (e) {
+        return {status:"fail", message:e}
+    }
 }
 
 const VerifyOTPService = async (req) => {
@@ -29,7 +29,8 @@ const VerifyOTPService = async (req) => {
         let otp=req.params.otp;
 
         // User Count
-        let total=await UserModel.find({email:email,otp:otp}).count('total');
+        //let total=await UserModel.find({email:email,otp:otp}).count('total');
+        let total = await UserModel.countDocuments({ email: email, otp: otp });
         if(total===1){
 
             // User ID Read
@@ -59,15 +60,15 @@ const VerifyOTPService = async (req) => {
 
 
 const SaveProfileService = async (req) => {
-   try {
-       let user_id=req.headers.user_id;
-       let reqBody=req.body;
-       reqBody.userID=user_id;
-       await ProfileModel.updateOne({userID:user_id},{$set:reqBody},{upsert:true})
-       return {status:"success", message:"Profile Save Success"}
-   }catch (e) {
-       return {status:"fail", message:"Something Went Wrong"}
-   }
+    try {
+        let user_id=req.headers.user_id;
+        let reqBody=req.body;
+        reqBody.userID=user_id;
+        await ProfileModel.updateOne({userID:user_id},{$set:reqBody},{upsert:true})
+        return {status:"success", message:"Profile Save Success"}
+    }catch (e) {
+        return {status:"fail", message:"Something Went Wrong"}
+    }
 }
 
 

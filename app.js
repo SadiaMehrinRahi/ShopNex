@@ -13,7 +13,7 @@ const cookieParser = require('cookie-parser');
 const mongoose =require('mongoose');
 const path = require("path");
 
-let URL="mongodb://localhost:27017"
+let URL="mongodb://localhost:27017/MyData"
 let option={user:'',pass:"",autoIndex:true};
 mongoose.connect(URL,option).then((res)=>{
     console.log("Database Connected")
@@ -38,4 +38,12 @@ app.use(limiter)
 app.set('etag', false);
 app.use("/api/v1",router)
 
+app.use(express.static('client/dist'));
+
+// Add React Front End Routing
+app.get('*',function (req,res) {
+    res.sendFile(path.resolve(__dirname,'client','dist','index.html'))
+})
+
 module.exports=app;
+
